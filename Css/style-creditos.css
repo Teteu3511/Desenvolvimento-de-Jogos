@@ -1,0 +1,160 @@
+body {
+
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.prof {
+
+    text-align: center;
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    padding: 70px;
+}
+
+.educa {
+
+     width: 1300px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 0 0 85px;
+
+
+}
+
+.educa li {
+
+    display: inline-block;
+
+    text-align: center;
+
+    border: 3px solid #1c088d;
+
+    border-image-slice: 1;
+
+    border-radius: 30px;
+
+    width: 300px;
+
+    padding: 10px 20px 0 20px;
+
+    margin: 0 15px;
+    
+}
+
+.educa img {
+
+
+    width: 160px;
+
+    height: 177px;
+
+    padding: 0 15px 20px;
+}
+
+.dev {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    padding: 50px 30px 80px 30px;
+}
+
+
+h2 {
+
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+.pessoas {
+
+    width: 1800px;
+
+    margin: 0 auto;
+
+    padding: 0 0 150px;
+
+}
+
+.pessoas li {
+
+    display: inline-block;
+
+    text-align: center;
+
+    border: 3px solid #4E1771;
+
+    border-radius: 10px;
+
+    width: 280px;
+
+    height: 425px;
+
+    padding: 10px 20px 0 20px;
+
+    margin: 0 15px;
+    
+}
+
+.pessoas li:hover {
+
+    transform: scale3d(1.1, 1.1, 1);
+
+}
+
+.pessoas img {
+
+
+    width: 200px;
+
+    height: 200px;
+
+    padding: 0 15px 20px;
+}
+
+p {
+
+    width: 280px;
+
+    margin: 20px auto;
+
+    padding: 0 0 20px 0 ;
+
+    font-size: 18px;
+
+}
+
+#kai {
+
+    position: relative;
+    bottom: 18px;
+
+}
+
+#pe {
+
+    position: relative;
+    bottom: 18px;
+
+}
+
+#gab {
+
+    position: relative;
+
+}
+

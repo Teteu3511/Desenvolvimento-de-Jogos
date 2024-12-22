@@ -1,0 +1,91 @@
+    body {
+
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+    
+    .retro {
+
+        position: relative;
+        margin: 80px 0 80px 250px;
+        border: 1px solid #4e1771;
+        border-radius: 10px;
+        width: 38%;
+        height: 750px;
+        z-index: 2;
+
+    }
+
+    form {
+
+        display: inline-block;
+        position: relative;
+        width: 38%;
+        height: 600px;
+        right: 20px;
+        bottom: 200px;
+        border-top: 1px solid #4e1771;
+        border-right: 1px solid #4e1771;
+        border-bottom: 1px solid #4e1771;
+        border-radius: 10px;
+        background: linear-gradient(to bottom right, #020202 50%, #4e1771);
+        z-index: 1;
+        text-align: center;
+
+    }
+
+    h2 {
+
+        font-size: 45px;
+        color: #FFFFFF;
+        margin: 30px 0 35px 0;
+        font-style: italic;
+
+    }
+    
+    label {
+
+        font-size: 25px;
+        display: block;
+        margin: 5px;
+
+    }
+
+    .inputs-texto {
+
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        margin: 15px;
+        color: #FFFFFF;
+        background: #000000;
+        padding: 10px;
+
+    }
+
+    .enviar {
+
+        text-align: center;
+        margin: 20px auto;
+        display: block;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        background: linear-gradient(to right,  rgb(32, 32, 170), rgb(101, 31, 167));
+        padding: 8px;
+        width: 8em;
+
+    }
+
+    .enviar:hover {
+
+        cursor: pointer;
+        scale: 110%;
+
+    }
+
+    footer {
+
+        clear: left;
+
+    }
+

@@ -1,0 +1,555 @@
+body {
+	background: #000000;
+	color: #FFFFFF;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	background: url(../Img/banner2.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 100px 0 0 0;
+}
+
+.banner h2 {
+	padding: 20px 150px 0 150px;
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.ocurso h3 {
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	padding: 40px 0px 0px 150px;
+	color: #9400D3;
+	text-transform: uppercase;
+}
+
+.ocurso h2 {
+	display: inline-block;
+	font-size: 4em;
+	padding: 30px 70px 0px 150px;
+	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.ocurso p {
+	text-align: justify;
+	font-size: 2em;
+	vertical-align: top;
+	display: inline-block;
+	padding: 50px 800px 0px 150px;
+	margin: 0 100px 0 0;
+	color: #A9A9A9;
+	line-height: 140%;
+}
+
+.gameplay {
+	width: 700px;
+	position: absolute;
+	left: 1100px;
+	top: 920px;
+}
+
+.FeH h2 {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 70px 70px 0px 150px;
+}
+
+.FeH p {
+	font-size: 2em;
+	padding: 50px 150px 0 150px;
+	line-height: 140%;
+	color: #A9A9A9;
+}
+
+.FeH h3 {
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 70px 70px 0px 150px;
+	font-style: italic;
+	color: #9400D3;
+}
+
+.caixas {
+	width: 100%;
+	display: flex;
+	padding: 20px 0 120px 0;
+
+}
+
+.caixa {
+	width: 300px;
+	height: 460px;
+	background-color: #1C1C1C;
+	border: 5px solid #4e1771;
+	border-radius: 20px;
+	overflow: hidden;
+ 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+	transition: 0.3s;
+}
+
+.cab-caixa {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+  
+.caixa-img {
+	min-width: 100%;
+	width: auto;
+	height: 100%;
+}
+  
+.corpo-caixa {
+	height: 170px;
+}
+  
+.caixa h3 {
+	padding: 20px 0px 0px 60px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #9400D3;
+}
+  
+.caixa p {
+	font-size: 1.3em;
+	padding: 10px 10px 0px 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.caixa:hover {
+	transform: scale3d(1.1, 1.1, 1);
+}
+
+.conteudos, .caixas {
+	margin: 20px 0px 0px 40px;
+	display: flex;
+}
+
+.banner2 {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: url(../img/jogando.png);
+	background-repeat: no-repeat;
+}
+
+.banner2 h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 100px 0 0 0;
+}
+
+.banner2 h2 {
+	padding: 20px 150px 0 150px;
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.projetos h3 {
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	padding: 40px 0px 0px 150px;
+	color: #9400D3;
+	text-transform: uppercase;
+}
+
+.projetos p {
+	text-align: justify;
+	font-size: 2em;
+	vertical-align: top;
+	display: inline-block;
+	padding: 50px 150px 0px 150px;
+	margin: 0 100px 0 0;
+	color: #A9A9A9;
+	line-height: 140%;
+}
+
+.projetos h2 {
+	display: inline-block;
+	font-size: 4em;
+	padding: 30px 70px 0px 150px;
+	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.jogo1 {
+	width: 350px;
+	margin: 100px 0px 30px 150px;
+	border: 5px solid #9400D3;
+	border-radius: 50px 0px 50px 0px;
+}
+
+.jogo1:hover {
+	transform: scale3d(1.1, 1.1, 1);
+	transition: 1s;
+}
+
+.feedback1 form {
+	position: absolute;
+	top: 1216px;
+	left: 1052px;
+	width: 38%;
+	height: 540px;
+	border: 8px solid #4e1771;
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(to bottom right, #1C1C1C 50%, #0a0a0a0a);
+	z-index: 1;
+
+}
+
+.feedback2 form {
+	position: absolute;
+	top: 2488px;
+	left: 1052px;
+	width: 38%;
+	height: 540px;
+	border: 8px solid #4e1771;
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(to bottom right, #1C1C1C 50%, #0a0a0a0a);
+	z-index: 1;
+
+}
+
+.feedback3 form {
+	position: absolute;
+	top: 3760px;
+	left: 1052px;
+	width: 38%;
+	height: 540px;
+	border: 8px solid #4e1771;
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(to bottom right, #1C1C1C 50%, #0a0a0a0a);
+	z-index: 1;
+
+}
+
+.feedback4 form {
+	position: absolute;
+	top: 5032px;
+	left: 1052px;
+	width: 38%;
+	height: 540px;
+	border: 8px solid #4e1771;
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(to bottom right, #1C1C1C 50%, #0a0a0a0a);
+	z-index: 1;
+
+}
+
+.feedback h2 {
+
+	border-radius: 10px;
+	margin: 20px 0 0 0;
+	font-size: 3em;
+	color: #A9A9A9;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.feedback p {
+	font-size: 30px;
+	padding: 20px 20px 20px 60px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 100px 0 0;
+	color: #A9A9A9;
+	line-height: 140%;
+}
+
+.feedback li {
+	text-align: left;
+	color: #A9A9A9;
+	margin: 4px 0px 0px 60px;
+	font-size: 30px;
+}
+
+.jogar {
+	position: absolute;
+	right: 125px;
+	bottom: 10px;
+	transform: translate(-50%, -50%);
+}
+  
+.jogar a {
+	display: block;
+	padding: 10px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #4e1771;
+	border: 4px solid #4e1771;
+	border-radius: 8px;
+	text-align: center;
+	position: relative;
+	transition: all .35s;
+}
+  
+.jogar a span {
+	position: relative;
+	z-index: 2;
+}
+  
+.jogar a:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #9400D3;
+	transition: all .35s;
+}
+  
+.jogar a:hover{
+	color: #fff;
+}
+  
+.jogar a:hover:after{
+	width: 100%;
+}
+
+.avaliacao{
+	margin: 0px 170px 0 170px;
+	display: flex;
+}
+
+.star-icon{
+	list-style-type: none;
+	cursor: pointer;
+	color: #ffe500;
+	font-size: 70px;
+}
+
+.star-icon::before{
+	content: "\2605";
+}
+
+.star-icon.ativo ~ .star-icon::before{
+	content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before{
+	content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before{
+	content: "\2606";
+}
+
+.comentario {
+	margin: 130px 400px 100px 400px;
+	display: inline-block;
+	width: 1000px;
+	height: 470px;
+	border: 8px solid #4e1771;
+	border-radius: 0px 100px 0px 100px;
+	background: #1C1C1C;
+	z-index: 1;
+}
+
+.comentario h2 {
+	font-size: 35px;
+	text-align: center;
+	padding: 30px 180px 0px 220px;
+	text-transform: uppercase;
+	vertical-align: top;
+	font-weight: bold;
+	color: #A9A9A9;
+}
+
+
+.slider {
+	position: relative;
+	right: 400px;
+	top: 85px;
+	border: 8px solid #4e1771;
+	border-radius: 100px 0px 0px 0px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 540px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input {
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 3px solid #9400D3;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.avaliacao {
+	margin: 10px 60px 10px 360px;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #9400D3;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #9400D3;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#radio2-1:checked ~ .nav-auto .auto-btn2-1, #radio2-2:checked ~ .nav-auto .auto-btn2-2, #radio2-3:checked ~ .nav-auto .auto-btn2-3{
+    background-color: #9400D3;
+}
+
+#radio2-1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2-2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio2-3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#radio3-1:checked ~ .nav-auto .auto-btn3-1, #radio3-2:checked ~ .nav-auto .auto-btn3-2, #radio3-3:checked ~ .nav-auto .auto-btn3-3{
+    background-color: #9400D3;
+}
+
+#radio3-1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio3-2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3-3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#radio4-1:checked ~ .nav-auto .auto-btn4-1, #radio4-2:checked ~ .nav-auto .auto-btn4-2, #radio4-3:checked ~ .nav-auto .auto-btn4-3{
+    background-color: #9400D3;
+}
+
+#radio4-1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio4-2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio4-3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+.comentario textarea {
+	min-width: 500px;
+	min-height: 200px;
+	resize: none;
+	margin: 0px 100px 0px 250px;
+	background: #111111;
+	color: #FFFFFF;
+}
+
+.comentario h4 {
+	text-align: center;
+	color: #A9A9A9;
+}
+
+.enviar {
+
+	text-align: center;
+	margin: 20px auto;
+	display: block;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	background: linear-gradient(to right,  #4e1771, #4e1771);
+	padding: 8px;
+	width: 8em;
+
+}
+
+.enviar:hover {
+	background: linear-gradient(to right,  #4e1771, #9400D3);
+	cursor: pointer;
+}
+
+.jogos {
+	margin: 0 0 0 0;
+}

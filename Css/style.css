@@ -1,0 +1,234 @@
+    body {
+
+        font-family: 'Nunito Sans', sans-serif;
+        background: #0f0f0f;
+        color: #FFFFFF;
+
+    }
+
+    header {
+        background: #1C1C1C;
+        padding: 5px 0;
+        font-size: 28px;
+        border-bottom: 5px solid #4e1771;
+    }
+    
+    .cabecalho {
+        position: relative;
+        bottom: 70px;
+        left: 200px;
+        display: inline-block;
+    }
+    
+    .logoh {
+
+        width: 140px;
+        padding: 10px 50px;
+
+    }
+
+    header a {
+
+        font-size: 25px;
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+    
+    h1 {
+        display: inline;
+        vertical-align: 70px;
+    }
+    
+    .mapah li {
+    
+        display: inline;
+        margin: 0 0 0 20px;
+    
+    }
+    
+    .mapah a {
+    
+        text-decoration: none;
+        font-size: 30px;
+        color: #FFFFFF;
+    
+    }
+    
+    .mapah a:hover {
+
+        color: #8A2BE2
+
+    }
+    
+    footer {
+
+        background: #1c1c1c;
+        position: relative;
+        padding: 140px;
+        border-top: 5px solid #4e1771;
+        clear: both;
+
+    }
+
+    .logoecopy {
+
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 35%;
+        height: 70%;
+        border-right: 3px solid #ffffff;
+
+    }
+
+    #logof1 {
+
+        width: 140px;
+        padding: 10px 50px;
+        position: relative;
+        left: 120px;
+
+    }
+
+    #logof2 {
+
+        width: 180px;
+        padding: 40px 80px;
+        position: relative;
+        left: 75px;
+
+    }
+
+    .copy {
+
+        font-size: 16px;
+        color: #ffffff;
+        display: inline-block;
+        position: absolute;
+        top: 200px;
+        left: 130px;
+        
+    }
+
+    .privacy {
+
+        font-size: 16px;
+        color: #ffffff;
+        display: inline-block;
+        position: absolute;
+        top: 200px;
+        left: 400px;
+
+    }
+
+    .privacy:hover {
+
+        color: #8A2BE2
+
+    }
+
+    .inst {
+
+        position: absolute;
+        width: 2%;
+        bottom: 150px;
+        left: 720px;
+
+    }
+
+    .glob {
+
+        position: absolute;
+        width: 2%;
+        left: 720px;
+        top: 150px;
+        
+    }
+
+    .acesso {
+
+        position: absolute;
+        left: 780px;
+        bottom: 20px;
+
+    }
+
+    .acesso legend {
+
+        color: #999393;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .acesso li {
+
+        margin: 20px;
+        text-align: center;
+    
+    }
+
+    .acesso a {
+
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .acesso a:hover {
+
+        color: #8A2BE2;
+
+    }
+
+    .local {
+
+        position: absolute;
+        left: 930px;
+        bottom: 101px;
+
+    }
+
+    .local legend {
+
+        color: #999393;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .local li {
+
+        margin: 20px;
+        text-align: center;
+
+    }
+
+    .apoio {
+
+        position: absolute;
+        left: 1220px;
+        bottom: 116px;
+
+    }
+
+    .apoio legend {
+
+        color: #999393;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
+    .apoio img {
+
+        width: 10%;
+        margin: 0 0 0 10px;
+
+    }
+
+
